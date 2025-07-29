@@ -109,7 +109,7 @@ It also includes personal insights and reflections in [`observation.md`](case_st
 Build using:
 
 -   [OpenStreetMap](https://www.openstreetmap.org/)
--   [Leaflet](https://leafletjs.com/).
+-   [Leaflet](https://leafletjs.com/)
 -   [Folium](https://python-visualization.github.io/folium/)
 
 ---
