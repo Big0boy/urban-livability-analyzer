@@ -1,4 +1,4 @@
-from config import AnalysisConfig, Green, transit_tags, SERVICE_CATEGORIES
+from .config import AnalysisConfig, Green, transit_tags, SERVICE_CATEGORIES
 import os
 import osmnx as ox
 import geopandas as gpd
@@ -7,8 +7,8 @@ import numpy as np
 import networkx as nx
 from shapely.geometry import Point
 from scipy.spatial import cKDTree
-from metrics import calculate_metrics
-from visualization import generate_enhanced_map
+from .metrics import calculate_metrics
+from .visualization import generate_enhanced_map
 
 
 class LivabilityAnalyzer:

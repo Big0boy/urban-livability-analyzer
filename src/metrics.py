@@ -4,11 +4,9 @@ import geopandas as gpd
 import osmnx as ox
 import networkx as nx
 from joblib import Parallel, delayed
-from config import SERVICE_CATEGORIES, SERVICE_WEIGHTS
-from analyzer import LivabilityAnalyzer
+from .config import SERVICE_CATEGORIES, SERVICE_WEIGHTS
 
-
-def calculate_metrics(self:LivabilityAnalyzer,boundary, green_gdf, transit_gdf, services_gdf, G):
+def calculate_metrics(self,boundary, green_gdf, transit_gdf, services_gdf, G):
         samples = self.sample_points_within(boundary, self.config.num_samples)
         print(f"📊 Total sample points: {len(samples)}")
         print("🚦 Using A* network distance" if self.config.use_network_analysis else "🧭 Using Euclidean distance fallback")

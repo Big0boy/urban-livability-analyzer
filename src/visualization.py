@@ -2,11 +2,9 @@ import os
 import geopandas as gpd
 import folium
 from folium.plugins import MiniMap, MeasureControl
-from config import SERVICE_CATEGORIES
-from analyzer import LivabilityAnalyzer
+from .config import SERVICE_CATEGORIES
 
-
-def generate_enhanced_map(self:LivabilityAnalyzer,boundary, green_gdf, transit_gdf, services_gdf, sample_gdf, city):
+def generate_enhanced_map(self,boundary, green_gdf, transit_gdf, services_gdf, sample_gdf, city):
         print("🗺️ Generating advanced interactive map...")
         boundary = boundary.to_crs(epsg=4326)
         green_gdf, transit_gdf, services_gdf, sample_gdf = [gdf.to_crs(epsg=4326) for gdf in [green_gdf, transit_gdf, services_gdf, sample_gdf]]

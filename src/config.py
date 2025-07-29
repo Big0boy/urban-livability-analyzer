@@ -1,3 +1,6 @@
+from dataclasses import dataclass
+from typing import List, Dict
+
 @dataclass
 class AnalysisConfig:
     cities: List[str]
