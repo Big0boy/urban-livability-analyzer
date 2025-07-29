@@ -1,0 +1,9 @@
+osmnx
+geopandas
+folium
+networkx
+shapely
+scipy
+joblib
+pandas
+numpy
