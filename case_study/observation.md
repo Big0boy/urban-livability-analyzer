@@ -27,8 +27,8 @@ Low (< 0.4): 63.00%
 **observation:**
 
 -   Transit stops are **highly centralized**, with **few connections to outer regions** of the city.
--   A significant number of sample points were located in undeveloped or inaccessible zones, which skewed the livability scores downward. -**Economically active areas** can be visually identified by dense clusters of banks, shops, and restaurants — mostly concentrated in city cores.
-    -Green spaces are available but **not evenly distributed** in terms of access from all neighborhoods.
+-   A significant number of sample points were located in undeveloped or inaccessible zones, which skewed the livability scores downward. - **Economically active areas** can be visually identified by dense clusters of banks, shops, and restaurants — mostly concentrated in city cores.
+-   Green spaces are available but **not evenly distributed** in terms of access from all neighborhoods.
 
 ## other cities
 
