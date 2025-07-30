@@ -1,7 +1,7 @@
 # Urban Livability Analyzer
 
-The Urban Livability Analyzer uses OpenStreetMap (OSM) data to assess the livability of urban areas based on access to green spaces, public transit,
-and essential services. It calculates realistic walking distances using the A\* algorithm on the city’s street network.
+The Urban Livability Analyzer uses **OpenStreetMap (OSM)** data to assess the livability of urban areas based on access to green spaces, public transit,
+and essential services. It calculates realistic walking distances using the **A\* algorithm** on the city’s street network.
 
 ---
 
