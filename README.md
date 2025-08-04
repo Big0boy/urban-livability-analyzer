@@ -92,7 +92,7 @@ Livability analysis performance depends on the size and complexity of the city. 
 
 ### Case Studies
 
-Real-world case studies and their corresponding output files are available in the [`case_study/`](case_study/) folder.
+Real-world case studies and their corresponding output files are available in the repo name [`CaseStudy`](https://github.com/Big0boy/CaseStudy) on my profile.
 
 Each case study includes:
 
@@ -100,7 +100,7 @@ Each case study includes:
 -   Output GeoJSON and CSV
 -   Summary reports
 
-It also includes personal insights and reflections in [`observation.md`](case_study/observation.md)
+It also includes personal insights and reflections in `README.md on CaseStudy` repo.
 
 ---
 
