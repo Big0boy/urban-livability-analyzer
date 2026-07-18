@@ -102,6 +102,9 @@ Each case study includes:
 
 It also includes personal insights and reflections in `README.md on CaseStudy` repo.
 
+### AI disclamer 
+AI was used in the planning of the project and final beauitification of the code.    
+
 ---
 
 ## Acknowledgements
